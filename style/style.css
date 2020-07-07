@@ -1,0 +1,403 @@
+.logo{
+    display: block;
+    margin-left: 240px;
+}
+.nav{
+    width: 100%;
+    min-width: 1920px;
+    min-height: 86px;
+display: flex;
+    background: #FFFFFF;
+    border: 1px solid #DBBFA7;
+    /* Shadow */
+
+    box-shadow: 0px 1px 10px rgba(219, 191, 167, 0.1);
+}
+.logo_down{
+    margin-left: 110px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 3px;
+    padding-top: 24px;
+}
+.logo_up{
+    font-size: 59px;
+
+    font-style: normal;
+    font-weight: normal;
+
+    line-height: 42px;
+    margin-left: 50px;
+}
+
+.nav_right{
+    display: flex;
+    margin-left: auto;
+    float: right;
+}
+.drop_ct{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.dropdown{
+    width: 150px;
+    height: 50px;
+    background: #FFFFFF;
+    /* #DBBFA7 */
+
+}
+
+
+
+.btn_btn-secondary{
+
+
+    width: 150px;
+    height: 50px;
+
+    /* #DBBFA7 */
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 12px;
+    /* identical to box height, or 75% */
+    background: #FFFFFF;
+
+
+    border: 2px solid #DBBFA7;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
+.login{
+    margin-right: 240px;
+    margin-top: 19px;
+    background: #FFFFFF;
+    /* #DBBFA7 */
+    width: 229px;
+    height: 48px;
+    border-top:2px solid #DBBFA7;
+    border-bottom: 2px solid #DBBFA7;
+    border-right: 2px solid #DBBFA7;
+
+    box-sizing: border-box;
+    border-radius: 25px 5px 5px 25px;
+}
+
+.avatar{
+    margin-right: 0px;
+  padding-right: auto;
+    height: 48px;
+    width: 48px;
+
+    box-sizing: border-box;
+    border-radius: 24px;
+
+}
+
+.nick_name{
+    width:151px;
+    height:17px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Style */
+
+    color: #383838;
+}
+
+
+.main{
+    min-width: 1920px;
+    min-height: 1025px;
+    width: 100%;
+}
+.main_up{
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+
+
+.search{
+    display: flex;
+    width: 813px;
+    height: 50px;
+    background: #FFFFFF;
+    /* #DBBFA7 */
+
+    border: 2px solid #DBBFA7;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.form_input_search {
+    padding-right: 113px;
+    padding-left: 14px;
+    width: 805px;
+    height: 45px;
+
+    border: none;
+    outline: none;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: rgba(56, 56, 56, 0.6);
+}
+
+.right_dr_1{
+    margin-left: 30px;
+    width: 217px;
+    height: 50px;
+}
+
+.right_dr_2{
+    width: 150px;
+    height: 50px;
+
+
+}
+
+.right_dr_3{
+
+    margin-left: 60px;
+    width: 160px;
+    height: 50px;
+}
+
+.btn-group dropup{
+    background: #FFFFFF;
+    /* #DBBFA7 */
+
+    border: 2px solid #DBBFA7;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.form_submit_search{
+    margin-right: 16px;
+    margin-top: 14px;
+    height: 19px;
+width: 19px;
+    border: none;
+    background: url(../img/Mask.png) no-repeat 50% 50%;
+}
+
+#dropdownMenuLink{
+    width: 217px;
+    height: 50px;
+
+
+    background: #FFFFFF;
+    /* #DBBFA7 */
+
+    border: 2px solid #DBBFA7;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.all_cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    height: 808px;
+    width: 1460px;
+}
+
+.card {
+
+
+    display: flex;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    width: 705px;
+    height: 256px;
+}
+
+.card_button{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 325px;
+    height: 50px;
+    background: #DBBFA7;
+    /* Shadow */
+
+    box-shadow: 0px 1px 10px rgba(219, 191, 167, 0.1);
+    border-radius: 5px;
+}
+
+
+
+.card_left{
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 226px;
+    width: 330px;
+    background: linear-gradient(180deg, rgba(104, 104, 104, 0.09) 0%, rgba(9, 9, 9, 0.6) 100%);
+    border-radius: 10px;
+}
+
+.card_title{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    /* Style */
+
+    color: #383838;
+}
+
+.card_cab{
+    margin-left: 20px;
+    margin-top: 33px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #8A8A8A;
+}
+
+.card_time{
+    margin-left: 20px;
+    margin-top: 42px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #8A8A8A;
+}
+
+.footer{
+    width: 100%;
+    margin-top: auto;
+    min-width: 1920px;
+    height: 290px;
+    background: #383838;
+}
+
+.footer_logo_up{
+    font-family: sunset;
+    font-style: normal;
+    font-weight:500;
+    font-size: 58px;
+
+    line-height: 52px;
+
+    /* Style */
+
+    color: #FFFFFF;
+}
+
+.footer_logo_down{
+    font-family: sunset;
+    font-style: normal;
+    font-weight:500;
+    font-size: 12px;
+
+    line-height: 52px;
+
+    /* Style */
+
+    color: #FFFFFF;
+}
+
+.footer_up{
+    width: 100%;
+height: 78px;
+    min-width: 1920px;
+}
+.footer_down{
+    display: flex;
+}
+
+.logo_footer{
+    text-align: center;
+}
+
+.footer_down_l{
+
+    display: flex;
+    align-items: left;
+
+}
+.footer_down_r{
+    display: block;
+
+}
+
+.menu_4{
+    margin-top: 35px;
+    margin-left: 550px;
+}
+
+.menu_4_up{
+    width: 272px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.menu_4_up_span{
+    width: 212px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+
+
+.menu_4_down{
+    margin-top: 25px;
+}
+.footer_num{
+    margin-left: 48px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+
+@font-face {
+// название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
+font-family: "sunset";
+// адрес шрифта и тип
+src: url("../fonts/sunset-serial-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
